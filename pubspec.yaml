@@ -1,0 +1,90 @@
+name: t_store
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+
+#--------------- PACKAGES ---------------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility Packages
+  http: ^1.5.0
+  intl: ^0.20.2
+  logger: ^2.6.1
+  url_launcher: ^6.3.2
+  flutter_native_splash: ^2.4.6
+  smooth_page_indicator: ^1.2.1
+
+  # Icons
+  iconsax_flutter: ^1.0.1
+  cupertino_icons: ^1.0.2
+
+  #State Management
+  get: ^4.7.2
+  get_storage: ^2.1.1
+
+  #Product Specific
+
+
+
+  #--------------- ./ PACKAGES END ---------------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  #--------------- Local ASSETS ---------------#
+  assets:
+    - assets/logos/
+    - assets/icons/brands/
+    - assets/images/on_boarding_images/
+
+  #--------------- Local FONTS ---------------#
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-BoldItalic.ttf
+          weight: 800
+          style: italic
+
+    - family: Coolvetica
+      fonts:
+        - asset: assets/fonts/coolvetica_regular.otf
+          weight: 400
+        - asset: assets/fonts/coolvetica_regular_italic.otf
+          weight: 400
+          style: italic
+
