@@ -20,7 +20,7 @@ class TTexts{
   static const String password = "Passwогd";
   static const String newPassword = "New Password";
   static const String username = "Username";
-  static const String phoneNo = "Phone Number";
+  static const String phoneNumber = "Phone Number";
   static const String rememberMe = "Remember Me";
   static const String forgetPassword = "Forget Password?";
   static const String signIn = "Sign In";
@@ -33,6 +33,7 @@ class TTexts{
   static const String verificationCode = "verificationCode";
   static const String resendEmail = "Resend Email";
   static const String resendEmailIn = "Resend email in";
+  static const String and = "and";
 
   //--Authentication Headings Text
   static const String loginTitle= "Welcome back,";
