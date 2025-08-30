@@ -4,20 +4,17 @@ import 'package:iconsax_flutter/iconsax_flutter.dart';
 
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
+import '../../password_configuration/forget_password.dart';
 import '../../signup/signup.dart';
 
 class TLoginForm extends StatelessWidget {
-  const TLoginForm({
-    super.key,
-  });
+  const TLoginForm({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Form(
       child: Padding(
-        padding: const EdgeInsets.symmetric(
-          vertical: TSizes.spaceBtwSections,
-        ),
+        padding: const EdgeInsets.symmetric(vertical: TSizes.spaceBtwSections),
         child: Column(
           children: [
             /// Email
@@ -53,7 +50,7 @@ class TLoginForm extends StatelessWidget {
 
                 ///Forget Password
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () => Get.to(() => const ForgetPassword()),
                   child: const Text(TTexts.forgetPassword),
                 ),
               ],

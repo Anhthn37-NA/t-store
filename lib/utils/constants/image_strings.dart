@@ -13,4 +13,12 @@ class TImages{
   static const String onBoardingImage2 = "assets/images/on_boarding_images/select-payment-method.gif";
   static const String onBoardingImage3 = "assets/images/on_boarding_images/deliver-at-your-door-step.gif";
 
+  // Animations
+  static const String productsIllustration = "assets/images/animations/workout.gif";
+  static const String productsSaleIllustration = "assets/images/animations/sale.png";
+  static const String staticSuccessIllustration = "assets/images/animations/success.png";
+  static const String deliveredInPlaneIllustration = "assets/images/animations/come-back-later.png";
+  static const String deliveredEmailIllustration = "assets/images/animations/man-receives-a-mail.png";
+  static const String verifyIllustration = "assets/images/animations/travel-backpack-with-passport-and-air-ticket.gif";
+
 }

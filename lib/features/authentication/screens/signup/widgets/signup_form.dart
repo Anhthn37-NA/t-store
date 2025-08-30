@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
+import 'package:t_store/features/authentication/screens/signup/verify_email.dart';
 import 'package:t_store/features/authentication/screens/signup/widgets/terms_conditions_checkbox.dart';
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
-import '../../../../../utils/helpers/helper_functions.dart';
-import '../../login/login.dart';
 
 class TSignupForm extends StatelessWidget {
   const TSignupForm({
@@ -21,7 +20,7 @@ class TSignupForm extends StatelessWidget {
             Expanded(
               child: TextFormField(
                 expands: false,
-                decoration: const InputDecoration(
+                decoration: InputDecoration(
                   labelText: TTexts.firstName,
                   prefixIcon: Icon(Iconsax.user),
                 ),
@@ -31,7 +30,7 @@ class TSignupForm extends StatelessWidget {
             Expanded(
               child: TextFormField(
                 expands: false,
-                decoration: const InputDecoration(
+                decoration: InputDecoration(
                   labelText: TTexts.lastName,
                   prefixIcon: Icon(Iconsax.user),
                 ),
@@ -86,7 +85,7 @@ class TSignupForm extends StatelessWidget {
         ///Sign Up Button
         SizedBox(width: double.infinity,
           child: ElevatedButton(
-            onPressed: () => Get.to(() => const LoginScreen()),
+            onPressed: () => Get.to(() => const VerifyEmailScreen()),
             child: const Text(TTexts.createAccount),
           ),
         )
