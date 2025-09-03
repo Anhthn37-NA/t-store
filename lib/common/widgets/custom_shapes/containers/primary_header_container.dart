@@ -10,7 +10,8 @@ class TPrimaryHeaderContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TCurvedEdgesWidget(//Tạo hiệu ứng bo cong ở cạnh dưới
+    return TCurvedEdgesWidget(
+      //Tạo hiệu ứng bo cong ở cạnh dưới
       child: Container(
         color: TColors.primary,
         padding: const EdgeInsets.only(bottom: 0),
