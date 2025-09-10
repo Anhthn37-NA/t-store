@@ -85,7 +85,7 @@ class TImages{
   static const String kitchenRefrigerator = "assets/images/products/kitchen_refrigerator.png";
 
   // Leather jackets
-  static const String leatherJacket1 = "assets/images/products/leather_jacket_1.png";
+  static const String sportJacket1 = "assets/images/products/nike_black_sport_jacket.png";
   static const String leatherJacket2 = "assets/images/products/leather_jacket_2.png";
   static const String leatherJacket3 = "assets/images/products/leather_jacket_3.png";
   static const String leatherJacket4 = "assets/images/products/leather_jacket_4.png";
