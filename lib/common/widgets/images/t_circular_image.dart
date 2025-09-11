@@ -7,7 +7,7 @@ import '../../../utils/helpers/helper_functions.dart';
 class TCircularImage extends StatelessWidget {
   const TCircularImage({
     super.key,
-    this.fit = BoxFit.cover,
+    this.fit = BoxFit.contain,
     required this.image,
     this.isNetworkImage = false,
     this.overlayColor,
