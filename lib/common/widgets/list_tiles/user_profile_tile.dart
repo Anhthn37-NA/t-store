@@ -7,7 +7,9 @@ import '../../../utils/constants/sizes.dart';
 import '../images/t_circular_image.dart';
 
 class TUserProfileTile extends StatelessWidget {
-  const TUserProfileTile({super.key});
+  const TUserProfileTile({super.key, required this.onPressed});
+
+  final VoidCallback? onPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +43,7 @@ class TUserProfileTile extends StatelessWidget {
           ),
 
           IconButton(
-            onPressed: () {},
+            onPressed: onPressed,
             icon: const Icon(Iconsax.edit, color: TColors.white),
           ),
         ],
